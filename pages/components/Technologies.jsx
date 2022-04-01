@@ -27,7 +27,7 @@ const Technologies = () => {
         Several tools were used to accomplish the mission I had. With simple steps, clear process, great tools and focus, I can create and design ideas, processes, products and strategies for your business.
         </p>
         <div className="flex justify-center md:justify-start">
-          <Cta text="Download my CV" link="https://pedroelton.com/wp-content/uploads/2022/03/CV-Pedro-Elton-Web-Developer.pdf"/>
+          <Cta text="Download my CV" link="https://pedroelton.com/wp-content/uploads/2022/04/Pedro-Elton-Frontend-Developer.pdf"/>
         </div>
       </div>
     </section>
