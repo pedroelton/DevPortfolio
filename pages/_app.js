@@ -15,11 +15,11 @@ function MyApp() {
     {/* <Hero/> */}
     <Navbar/>
     <Header/>
-    <Resume id="skills"/>
+    <Resume/>
     <MyNumbers/>
-    <Portfolio id="portfolio"/>
+    <Portfolio/>
     <Technologies/>
-    <Contact id="contact"/>
+    <Contact/>
     <Footer/>
     </div>
   )

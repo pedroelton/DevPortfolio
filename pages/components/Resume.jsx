@@ -1,9 +1,9 @@
 import React from 'react'
 import ListTopics from './ListTopics'
 
-const Resume = ({id}) => {
+const Resume = () => {
   return (
-    <section id={id} className="flex justify-center align-middle lg:pb-24 lg:w-[1400px] m-auto grid-cols-1 lg:grid-cols-2 lg:space-x-16 flex-wrap lg:flex-nowrap p-8 lg:p-0 space-y-12 lg:space-y-0">
+    <section id="skills" className="flex justify-center align-middle lg:pb-24 lg:w-[1400px] m-auto grid-cols-1 lg:grid-cols-2 lg:space-x-16 flex-wrap lg:flex-nowrap p-8 lg:p-0 space-y-12 lg:space-y-0">
       <div className="flex flex-col space-y-5 md:w-[50vw] w-full">
         <img
         src="https://pedroelton.com/wp-content/uploads/2021/12/UX-UI-app-presentation-mockup-min-scaled.webp"
