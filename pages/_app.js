@@ -9,18 +9,17 @@ import Technologies from './components/Technologies'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
-
 function MyApp() {
   return (
     <div className="text-slate-900  bg-orange-50">
     {/* <Hero/> */}
     <Navbar/>
     <Header/>
-    <Resume/>
+    <Resume id="skills"/>
     <MyNumbers/>
-    <Portfolio/>
+    <Portfolio id="portfolio"/>
     <Technologies/>
-    <Contact/>
+    <Contact id="contact"/>
     <Footer/>
     </div>
   )

@@ -17,11 +17,10 @@ This website was made to display some of my most recent projects.
 I hope you liked.
 
 **Pedro Elton**
-https://pedroelton.vercel.app/
+
 If you want to contact me, feel free to use the social media:
 - LinkedIn: https://www.linkedin.com/in/pedro-elton/
 - Instagram: https://instagram.com/pedroelton/
 
 
 © Copyright Pedro Elton - All rights reserved
-
