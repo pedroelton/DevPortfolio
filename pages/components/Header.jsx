@@ -25,7 +25,7 @@ const Header = () => {
       </div>
       </div>
       <div className="md:w-[50vw] w-100 hidden md:inline">
-        <MockupAnimated image="https://pedroelton.com/wp-content/uploads/2022/02/mockupSites-min-scaled.webp"/>
+        <MockupAnimated image="https://pedroelton.com/wp-content/uploads/2022/04/heroImg1-scaled.webp"/>
       </div>
     </header>
   )
