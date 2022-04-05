@@ -17,11 +17,11 @@ const Header = () => {
         <a href="#contact" className=""><button className="px-20 my-8 md:my-0 underline underline-offset-2 text-lg font-bold hover:text-indigo-500 transition-all duration-300">Contact me</button></a>
       </div>
       <div className="md:w-[480px] w-100">
-          <blockquote className="md:mt-24 mt-16 leading-relaxed text-zinc-600">
-            <h4 className="font-bold text-slate-900 mb-4">Review:</h4>
-            "Pedro is one of the most incredible guys I ever met, as a persojn I have no word to describe him, as a professional, the best word to describe Pedro is commitment. His commitment to accomplish tasks and his strength to develop new skills are speechless"
-            <span> - <span className="font-bold cursor-pointer text-slate-900">Warley Godoi</span>, Hedge fund manager - Cascais, Portugal.</span>
-          </blockquote>
+            <h4 className="md:mt-24 mt-16 font-bold text-slate-900 mb-4">Review:</h4>
+          <q className="leading-relaxed text-zinc-600">
+            Pedro is one of the most incredible guys I ever met, as a persojn I have no word to describe him, as a professional, the best word to describe Pedro is commitment. His commitment to accomplish tasks and his strength to develop new skills are speechless
+          </q><br/>
+            <cite> - <span className="font-bold cursor-pointer text-slate-900">Warley Godoi</span>, Hedge fund manager - Cascais, Portugal.</cite>
       </div>
       </div>
       <div className="md:w-[50vw] w-100 hidden md:inline">
