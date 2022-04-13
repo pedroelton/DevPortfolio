@@ -26,7 +26,7 @@ const Portfolio = () => {
 				<CardProject
 					image="https://pedroelton.com/wp-content/uploads/2022/04/instagram.jpeg"
 					title="Instagram mobile frontend UI Clone"
-					description="This frontend project is the Instagram UI made in React Native and Expo. This is the first part of the Instagram Clone project. I'm still working on the backend."
+					description="This frontend project is the Instagram UI made in React Native and Expo. This is the first part of the Instagram Clone project."
 					link="https://github.com/pedroelton/Instagram-clone-React-Native"
 					repo="https://github.com/pedroelton/Instagram-clone-React-Native"
 				/>
