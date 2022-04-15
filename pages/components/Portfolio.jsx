@@ -24,21 +24,28 @@ const Portfolio = () => {
 					repo="https://github.com/pedroelton/Amazon-Clone-React-Nextjs-Frontend-Project"
 				/>
 				<CardProject
-					image="https://pedroelton.com/wp-content/uploads/2022/04/instagram.jpeg"
+					image="https://pedroelton.com/wp-content/uploads/2022/04/instagram.webp"
 					title="Instagram mobile frontend UI Clone"
 					description="This frontend project is the Instagram UI made in React Native and Expo. This is the first part of the Instagram Clone project."
 					link="https://github.com/pedroelton/Instagram-clone-React-Native"
 					repo="https://github.com/pedroelton/Instagram-clone-React-Native"
 				/>
 				<CardProject
-					image="https://pedroelton.com/wp-content/uploads/2022/03/Screenshot-at-Mar-31-23-53-13.png"
+					image="https://pedroelton.com/wp-content/uploads/2022/04/Frame-1card-2.webp"
+					title="Crypto_Info"
+					description="Cryptocurrency price and information tracker. Made in ReactJs and using the Coinstats api. Other features will be implemented soon."
+					link="https://thecryptoinfo.vercel.app/"
+					repo="https://github.com/pedroelton/CryptoInfo"
+				/>
+				<CardProject
+					image="https://pedroelton.com/wp-content/uploads/2022/04/Screenshot-at-Mar-31-23-53-13.webp"
 					title="Noah Weather"
 					description="App made in EJS, Nodejs and Express that fetchs an weather API and give important weather information from my City."
 					link="https://github.com/pedroelton/NoahWeather.git"
 					repo="https://github.com/pedroelton/NoahWeather.git"
 				/>
 				<CardProject
-					image="https://pedroelton.com/wp-content/uploads/2022/03/Screenshot-at-Apr-01-00-01-40.png"
+					image="https://pedroelton.com/wp-content/uploads/2022/04/Screenshot-at-Apr-01-00-01-40.webp"
 					title="MyTask"
 					description="The first project I did. I used jQuery to build an pretty Todo list called MyTask. It a simple list, without backend."
 					link="https://ephemeral-chimera-ed1aea.netlify.app/"
