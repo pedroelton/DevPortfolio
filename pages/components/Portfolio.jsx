@@ -32,7 +32,7 @@ const Portfolio = () => {
 				/>
 				<CardProject
 					image="https://pedroelton.com/wp-content/uploads/2022/04/Frame-1card-2.webp"
-					title="Crypto_Info"
+					title="Crypto Info"
 					description="Cryptocurrency price and information tracker. Made in ReactJs and using the Coinstats api. Other features will be implemented soon."
 					link="https://thecryptoinfo.vercel.app/"
 					repo="https://github.com/pedroelton/CryptoInfo"
