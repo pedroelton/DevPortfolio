@@ -51,7 +51,13 @@ const Portfolio = () => {
 					link="https://ephemeral-chimera-ed1aea.netlify.app/"
 					repo="https://github.com/pedroelton/Simple-Todo-List-in-jQuery"
 				/>
-				{/* //Todo: Add 3 projects this week */}
+				<CardProject
+					image="https://pedroelton.com/wp-content/uploads/2022/04/Screenshot-at-Apr-28-13-57-28.png"
+					title="Designcode.io Clone"
+					description="A great project to practice Styled Components and ReactJs, as part of the designcode.io React course."
+					link="https://designcode-frontend-clone.netlify.app/"
+					repo="https://github.com/pedroelton/designcode.io_clone.git"
+				/>
 			</div>
 			<div className="flex justify-center align-middle lg:py-24 lg:w-[1400px] m-auto grid-cols-1 lg:grid-cols-2 lg:space-x-16 flex-wrap lg:flex-nowrap p-8 lg:p-0 space-y-12 lg:space-y-0">
 				<div className="flex flex-col space-y-5 md:w-[50vw] w-100 border-2 border-orange-100 p-8 rounded-2xl">
