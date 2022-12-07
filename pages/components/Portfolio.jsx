@@ -1,12 +1,12 @@
 import React from "react";
 import CardProject from "./CardProject";
+import CtaNewWindow from "./CtaNewWindow";
 
 const Portfolio = () => {
 	return (
 		<section
 			id="portfolio"
-			className="flex flex-col justify-center space-y-12 bg-orange-100"
-		>
+			className="flex flex-col justify-center space-y-12 bg-orange-100">
 			<div className="flex justify-evenly align-middle lg:py-24 lg:w-[1400px] m-auto grid-cols-1 lg:grid-cols-2 flex-wrap p-8 lg:p-0 space-y-12 lg:space-y-0 rounded-lg border-2 border-orange-100">
 				<div className="w-full flex flex-col justify-center">
 					<h2 className="text-4xl font-bold w-full text-center pb-2 items-center">
@@ -58,6 +58,27 @@ const Portfolio = () => {
 					link="https://designcode-frontend-clone.netlify.app/"
 					repo="https://github.com/pedroelton/designcode.io_clone.git"
 				/>
+				<CardProject
+					image="https://pedroelton.com/wp-content/uploads/2022/12/microblog-min.png"
+					title="Microblog"
+					description="A Microblog project made with HTML, CSS, Python Flask and MongoDB."
+					link="https://microblog-pedro.onrender.com/"
+					repo="https://github.com/pedroelton/microblog-pedro.git"
+				/>
+				<CardProject
+					image="https://pedroelton.com/wp-content/uploads/2022/12/phpcrud-min.png"
+					title="Simple CRUD in PHP and MYSQL"
+					description="A project made for training purposes. HTML, Bootstrap, PHP and MySQL"
+					link="https://github.com/pedroelton/SIMPLE-CRUD-PHP-MYSQL"
+					repo="https://github.com/pedroelton/SIMPLE-CRUD-PHP-MYSQL.git"
+				/>
+				<CardProject
+					image="https://pedroelton.com/wp-content/uploads/2022/12/weighttracker-min.png"
+					title="Weight Tracker in VueJs"
+					description="A weight tracker using Vue Js, ChartJs, CSS and Vite"
+					link="https://github.com/pedroelton/weight-tracker-vue"
+					repo="https://github.com/pedroelton/weight-tracker-vue.git"
+				/>
 			</div>
 			<div className="flex justify-center align-middle lg:py-24 lg:w-[1400px] m-auto grid-cols-1 lg:grid-cols-2 lg:space-x-16 flex-wrap lg:flex-nowrap p-8 lg:p-0 space-y-12 lg:space-y-0">
 				<div className="flex flex-col space-y-5 md:w-[50vw] w-100 border-2 border-orange-100 p-8 rounded-2xl">
@@ -68,22 +89,28 @@ const Portfolio = () => {
 						</span>
 					</h2>
 					<p className="text-zinc-600 md:w-12/12 w-100 leading-relaxed md:text-lg text-md font-light text-left">
-						Here I’m showing the last project I worked on in 2021. I would love
-						to talk more about it and about other projects in a interview.
+						Here I’m showing the last project I worked on in 2021. I
+						would love to talk more about it and about other
+						projects in a interview.
 					</p>
 					<p className="text-zinc-600 md:w-12/12 w-100 leading-relaxed md:text-lg text-md font-light text-left">
-						This project was a social media focused on finance and trading
-						called Dektos and had the mission to reduce the barriers and the
-						spread of knowledge between institutional investors and small
-						investors, retail traders or people without any level of knowledge
-						in investments.
+						Dektos was a social media focused on finance and trading
+						called Dektos and had the mission to reduce the barriers
+						and the spread of knowledge between institutional
+						investors and small investors, retail traders or people
+						without any level of knowledge in investments.
 					</p>
 					<p className="text-zinc-600 md:w-12/12 w-100 leading-relaxed md:text-lg text-md font-light text-left">
 						The project had over 200 screens designed with exclusive
-						functionalities and processes created by me. My main role in this
-						project was to create from scratch the business model, features and,
-						design, to manage the development team, and audit their deliveries.
+						functionalities and processes created by me. My main
+						role in this project was to create from scratch the
+						business model, features and, design, to manage the
+						development team, and audit their deliveries.
 					</p>
+					<CtaNewWindow
+						text="Case studies"
+						link="https://pedroelton.com/case-studies/"
+					/>
 				</div>
 				<div className="flex flex-col space-y-5 md:w-[50vw] w-100">
 					<img

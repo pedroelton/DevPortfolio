@@ -13,16 +13,19 @@ const Header = () => {
 					Front-end Developer <br /> & UI/UX Designer
 				</h1>
 				<p className="text-zinc-600 md:w-[480px] leading-relaxed text-lg font-light text-center md:text-left">
-					My experience in the past 3 years were focused on web design and UI/UX
-					Design. As a front-end web developer I’m an Entry-level/Junior on
-					ReactJs, JavaScript, jQuery, NodeJs and Express.
+					My experience in the past 3 years were focused on web design
+					and UI/UX Design. As a front-end web developer I’m an
+					Entry-level/Junior on ReactJs, JavaScript, jQuery, NodeJs
+					and Express.
 				</p>
 				<div className="w-full flex flex-col lg:flex-row lg:space-y-0 space-y-4 justify-center md:justify-start items-center">
 					<Cta
 						text="Download my CV"
-						link="https://pedroelton.com/wp-content/uploads/2022/05/Pedro-Elton-Frontend-Developer.pdf"
+						link="https://pedroelton.com/wp-content/uploads/2022/12/CV-Pedro-Elton-Developer-ptbr.pdf"
 					/>
-					<a href="#contact" className="">
+					<a
+						href="#contact"
+						className="">
 						<button className="px-20 my-8 md:my-0 underline underline-offset-2 text-lg font-bold hover:text-indigo-500 transition-all duration-300">
 							Contact me
 						</button>
@@ -33,10 +36,11 @@ const Header = () => {
 						Review:
 					</h4>
 					<q className="leading-relaxed text-zinc-600">
-						Pedro is one of the most incredible guys I ever met, as a persojn I
-						have no word to describe him, as a professional, the best word to
-						describe Pedro is commitment. His commitment to accomplish tasks and
-						his strength to develop new skills are speechless
+						Pedro is one of the most incredible guys I ever met, as
+						a persojn I have no word to describe him, as a
+						professional, the best word to describe Pedro is
+						commitment. His commitment to accomplish tasks and his
+						strength to develop new skills are speechless
 					</q>
 					<br />
 					<cite>
