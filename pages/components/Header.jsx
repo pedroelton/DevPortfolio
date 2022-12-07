@@ -9,10 +9,10 @@ function Header() {
 			className="w-screen h-auto"
 			style={{
 				backgroundImage:
-					'url("https://pedroelton.com/wp-content/uploads/2022/12/linesHero.png")',
+					'url("https://pedroelton.com/wp-content/uploads/2022/12/bglight3.webp")',
 				backgroundRepeat: "no-repeat",
-				backgroundSize: "50%",
-				backgroundPosition: "top right",
+				backgroundSize: "contain",
+				backgroundPosition: "center center",
 			}}>
 			<header className="flex md:flex-nowrap justify-center align-middle md:py-56 lg:py-48 md:-mt-24 lg:w-[1400px] w-100 m-auto">
 				<div className="space-y-6 p-4 mt-8 md:w-[60vw] w-full">

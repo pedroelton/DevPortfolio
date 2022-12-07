@@ -7,10 +7,10 @@ const Resume = () => {
 			className="w-screen h-auto"
 			style={{
 				backgroundImage:
-					'url("https://pedroelton.com/wp-content/uploads/2022/12/LinesApp.png")',
+					'url("https://pedroelton.com/wp-content/uploads/2022/12/bglight2.webp")',
 				backgroundRepeat: "no-repeat",
-				backgroundSize: "35%",
-				backgroundPosition: "left",
+				backgroundSize: "contain",
+				backgroundPosition: "center center",
 			}}>
 			<main
 				id="skills"
