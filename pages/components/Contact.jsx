@@ -11,7 +11,7 @@ const Contact = () => {
 				<h2 className="text-4xl font-bold md:w-8/12">
 					How about we schedule an interview?
 				</h2>
-				<p className="text-zinc-600 md:w-8/12 leading-relaxed md:text-lg text-md font-light text-left">
+				<p className=" md:w-8/12 leading-relaxed md:text-lg text-md font-light text-left">
 					We can book a video call and talk about how I can add value
 					to your team and see if we are a good match.
 				</p>

@@ -8,20 +8,36 @@ import Portfolio from "./components/Portfolio";
 import Technologies from "./components/Technologies";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import {createContext, useState} from "react";
+import Brightness6Icon from "@mui/icons-material/Brightness6";
+
+export const ThemeContext = createContext(null);
 
 function MyApp() {
+	const [theme, setTheme] = useState(
+		"bg-slate-900  text-orange-50 overflow-hidden"
+	);
+	const toggleTheme = () => {
+		setTheme((curr) =>
+			curr === "bg-slate-900  text-orange-50 overflow-hidden"
+				? "text-slate-800  bg-orange-50 overflow-hidden"
+				: "bg-slate-900  text-orange-50 overflow-hidden"
+		);
+	};
 	return (
-		<div className="text-slate-900  bg-orange-50 overflow-hidden">
-			{/* <Hero/> */}
-			<Navbar />
-			<Header />
-			<Resume />
-			<MyNumbers />
-			<Portfolio />
-			<Technologies />
-			<Contact />
-			<Footer />
-		</div>
+		<ThemeContext.Provider value={(theme, toggleTheme)}>
+			<div className={theme}>
+				{/* <Hero/> */}
+				<Navbar toggle={toggleTheme} />
+				<Header />
+				<Resume />
+				<MyNumbers />
+				<Portfolio />
+				<Technologies />
+				<Contact />
+				<Footer />
+			</div>
+		</ThemeContext.Provider>
 	);
 }
 

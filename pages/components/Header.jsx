@@ -9,20 +9,20 @@ function Header() {
 			className="w-screen h-auto"
 			style={{
 				backgroundImage:
-					'url("https://pedroelton.com/wp-content/uploads/2022/12/bglight3.webp")',
+					'url("https://pedroelton.com/wp-content/uploads/2022/12/bghero.webp")',
 				backgroundRepeat: "no-repeat",
 				backgroundSize: "contain",
 				backgroundPosition: "center center",
 			}}>
 			<header className="flex md:flex-nowrap justify-center align-middle md:py-56 lg:py-48 md:-mt-24 lg:w-[1400px] w-100 m-auto">
 				<div className="space-y-6 p-4 mt-8 md:w-[60vw] w-full">
-					<p className="text-pink-600 text-lg md:text-left text-center">
+					<p className="text-pink-500 text-lg md:text-left text-center">
 						Hey, I'm Pedro Elton
 					</p>
 					<h1 className="md:text-5xl text-3xl font-bold subpixel-antialiased text-center md:text-left">
 						Front-end Developer <br /> & UI/UX Designer
 					</h1>
-					<p className="text-zinc-600 md:w-[480px] leading-relaxed text-lg font-light text-center md:text-left">
+					<p className=" md:w-[480px] leading-relaxed text-lg font-light text-center md:text-left">
 						My experience in the past 3 years were focused on web
 						design and UI/UX Design. As a front-end web developer
 						I’m an Entry-level/Junior on ReactJs, JavaScript,
@@ -42,10 +42,10 @@ function Header() {
 						</a>
 					</div>
 					<div className="md:w-[480px] w-100">
-						<h4 className="md:mt-24 mt-16 font-bold text-slate-900 mb-4">
+						<h4 className="md:mt-24 mt-16 font-bold  mb-4">
 							Review:
 						</h4>
-						<q className="leading-relaxed text-zinc-600">
+						<q className="leading-relaxed ">
 							Pedro is one of the most incredible guys I ever met,
 							as a persojn I have no word to describe him, as a
 							professional, the best word to describe Pedro is
@@ -56,7 +56,7 @@ function Header() {
 						<cite>
 							{" "}
 							-{" "}
-							<span className="font-bold cursor-pointer text-slate-900">
+							<span className="font-bold cursor-pointer ">
 								Warley Godoi
 							</span>
 							, Hedge fund manager - Cascais, Portugal.
@@ -71,7 +71,7 @@ function Header() {
                     height="100%"
                     className="-mt-32"
                 ></iframe> */}
-				<div className="md:w-[50vw] w-100 hidden md:inline">
+				<div className="md:w-[60vw] w-100 hidden md:inline">
 					{" "}
 					<MockupAnimated image="https://pedroelton.com/wp-content/uploads/2022/04/heroImg1-scaled.webp" />
 				</div>

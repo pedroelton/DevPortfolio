@@ -7,7 +7,7 @@ const Resume = () => {
 			className="w-screen h-auto"
 			style={{
 				backgroundImage:
-					'url("https://pedroelton.com/wp-content/uploads/2022/12/bglight2.webp")',
+					'url("https://pedroelton.com/wp-content/uploads/2022/12/bgResume.webp")',
 				backgroundRepeat: "no-repeat",
 				backgroundSize: "contain",
 				backgroundPosition: "center center",
@@ -28,7 +28,7 @@ const Resume = () => {
 						A quick resume of skills and experiences
 					</h2>
 					<div className="h-2 bg-indigo-600 w-24" />
-					<p className="text-zinc-600 md:w-[540px] leading-relaxed md:text-lg text-md font-light text-left">
+					<p className="md:w-[540px] leading-relaxed md:text-lg text-md font-light text-left">
 						I gathered experience in different areas of design,
 						development, marketing and management and it’s an asset,
 						since this broad vision helps me to develop better
@@ -57,12 +57,13 @@ const Resume = () => {
 							topic="Leadership and communication skills"
 						/>
 					</ul>
-					<p className="text-zinc-600 md:w-[540px] leading-relaxed md:text-lg text-md text-left">
+					<p className="md:w-[540px] leading-relaxed md:text-lg text-md text-left">
 						<a
 							href="#contact"
-							className="text-slate-900 underline underline-offset-2 hover:text-indigo-500 font-bold transition-all duration-300">
+							className=" underline underline-offset-2 hover:text-indigo-500 font-bold transition-all duration-300">
 							How about a video call with me?
 						</a>
+						<br />
 						<span> I'm looking forward to meet you.</span>
 					</p>
 				</div>
