@@ -38,7 +38,7 @@ const Resume = () => {
 					<ul>
 						<ListTopics
 							icon="check"
-							topic="React, javaScript and jQuery front-end developer"
+							topic="React, and javaScript front-end developer"
 						/>
 						<ListTopics
 							icon="check"
@@ -46,11 +46,11 @@ const Resume = () => {
 						/>
 						<ListTopics
 							icon="check"
-							topic="Web designer"
+							topic="React Native mobile developer"
 						/>
 						<ListTopics
 							icon="check"
-							topic="Marketing Strategies"
+							topic="Design audit and management"
 						/>
 						<ListTopics
 							icon="check"
