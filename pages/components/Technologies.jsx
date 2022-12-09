@@ -4,7 +4,15 @@ import GaleryItem from "./GaleryItem";
 
 const Technologies = () => {
 	return (
-		<section className="flex justify-center align-middle lg:py-24 lg:w-[1400px] m-auto grid-cols-1 lg:grid-cols-2 lg:space-x-16 flex-wrap lg:flex-nowrap p-8 lg:p-0 space-y-12 lg:space-y-0">
+		<section
+			className="flex justify-center align-middle lg:py-24 lg:w-[1400px] m-auto grid-cols-1 lg:grid-cols-2 lg:space-x-16 flex-wrap lg:flex-nowrap p-8 lg:p-0 space-y-12 lg:space-y-0"
+			style={{
+				backgroundImage:
+					'url("https://pedroelton.com/wp-content/uploads/2022/12/bgResume.webp")',
+				backgroundRepeat: "no-repeat",
+				backgroundSize: "contain",
+				backgroundPosition: "center center",
+			}}>
 			<div className="flex md:w-[30vw] w-100 flex-wrap md:justify-start justify-center">
 				<GaleryItem
 					photo="https://pedroelton.com/wp-content/uploads/2021/12/html-1.svg"

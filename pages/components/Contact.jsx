@@ -6,7 +6,14 @@ const Contact = () => {
 	return (
 		<section
 			id="contact"
-			className="flex justify-center align-middle lg:py-24 lg:w-[1400px] m-auto grid-cols-1 lg:grid-cols-2 lg:space-x-16 flex-wrap lg:flex-nowrap p-8 lg:p-0 space-y-12 lg:space-y-0">
+			className="flex justify-center align-middle lg:py-24 lg:w-[1400px] m-auto grid-cols-1 lg:grid-cols-2 lg:space-x-16 flex-wrap lg:flex-nowrap p-8 lg:p-0 space-y-12 lg:space-y-0"
+			style={{
+				backgroundImage:
+					'url("https://pedroelton.com/wp-content/uploads/2022/12/bghero.webp")',
+				backgroundRepeat: "no-repeat",
+				backgroundSize: "contain",
+				backgroundPosition: "center center",
+			}}>
 			<div className="flex flex-col space-y-5 w-fit">
 				<h2 className="text-4xl font-bold md:w-8/12">
 					How about we schedule an interview?

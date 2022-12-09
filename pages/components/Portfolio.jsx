@@ -6,7 +6,14 @@ const Portfolio = () => {
 	return (
 		<section
 			id="portfolio"
-			className="flex flex-col justify-center space-y-12">
+			className="flex flex-col justify-center space-y-12"
+			style={{
+				backgroundImage:
+					'url("https://pedroelton.com/wp-content/uploads/2022/12/bghero.webp")',
+				backgroundRepeat: "no-repeat",
+				backgroundSize: "contain",
+				backgroundPosition: "center center",
+			}}>
 			<div className="flex justify-evenly align-middle lg:py-24 lg:w-[1400px] m-auto grid-cols-1 lg:grid-cols-2 flex-wrap p-8 lg:p-0 space-y-12 lg:space-y-0">
 				<div className="w-full flex flex-col justify-center">
 					<h2 className="text-4xl font-bold w-full text-center pb-2 items-center">
