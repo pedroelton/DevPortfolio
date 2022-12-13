@@ -47,7 +47,7 @@ function Header() {
 						</h4>
 						<q className="leading-relaxed ">
 							Pedro is one of the most incredible guys I ever met,
-							as a persojn I have no word to describe him, as a
+							as a person I have no word to describe him, as a
 							professional, the best word to describe Pedro is
 							commitment. His commitment to accomplish tasks and
 							his strength to develop new skills are speechless
