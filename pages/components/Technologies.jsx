@@ -9,7 +9,7 @@ import reactLogo from "../../assets/react-2.svg";
 import nextLogo from "../../assets/next-js.svg";
 import tailwindLogo from "../../assets/tailwind-css2.svg";
 import bootstrapLogo from "../../assets/Bootstrap.svg";
-import elementorLogo from "../../assets/elementor.svg";
+import elementorLogo from "../../assets/Elementor.svg";
 import webflowLogo from "../../assets/icons8-webflow.svg";
 import wordpressLogo from "../../assets/wordpress-blue.svg";
 import shopifyLogo from "../../assets/shopify.svg";
