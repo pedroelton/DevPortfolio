@@ -1,6 +1,17 @@
 import React from "react";
 import CardProject from "./CardProject";
 import CtaNewWindow from "./CtaNewWindow";
+import bgPortfolio from "../../assets/bghero.webp";
+import amazonImage from "../../assets/amazon.webp";
+import instagramImage from "../../assets/instagram.webp";
+import cryptoImage from "../../assets/Frame-1card-2.webp";
+import noahImage from "../../assets/Screenshot-at-Mar-31-23-53-13.webp";
+import taskImage from "../../assets/Screenshot-at-Apr-01-00-01-40.webp";
+import designCodeImage from "../../assets/Screenshot-at-Apr-28-13-57-28.png";
+import microblogImage from "../../assets/microblog-min.png";
+import phpCrudImage from "../../assets/phpcrud-min.png";
+import weightTrackerImage from "../../assets/weighttracker-min.png";
+import dektosMockup from "../../assets/Web-Moock-Up-min-scaled.webp";
 
 const Portfolio = () => {
 	return (
@@ -8,8 +19,7 @@ const Portfolio = () => {
 			id="portfolio"
 			className="flex flex-col justify-center space-y-12"
 			style={{
-				backgroundImage:
-					'url("https://pedroelton.com/wp-content/uploads/2022/12/bghero.webp")',
+				backgroundImage: `url(${bgPortfolio.src})`,
 				backgroundRepeat: "no-repeat",
 				backgroundSize: "contain",
 				backgroundPosition: "center center",
@@ -24,63 +34,63 @@ const Portfolio = () => {
 					</p>
 				</div>
 				<CardProject
-					image="https://pbs.twimg.com/profile_images/1400483947319115776/bTfxhuOK_400x400.jpg"
+					image={amazonImage.src}
 					title="Amazon frontend UI Clone"
 					description="A simple project made using ReactJs, NextJs, Netlify and Tailwind. The products were fetched from the FakeStore api."
 					link="https://amazon-clone-react-nextjs-frontend-project.vercel.app/"
 					repo="https://github.com/pedroelton/Amazon-Clone-React-Nextjs-Frontend-Project"
 				/>
 				<CardProject
-					image="https://pedroelton.com/wp-content/uploads/2022/04/instagram.webp"
+					image={instagramImage.src}
 					title="Instagram mobile frontend UI Clone"
 					description="This frontend project is the Instagram UI made in React Native and Expo. This is the first part of the Instagram Clone project."
 					link="https://github.com/pedroelton/Instagram-clone-React-Native"
 					repo="https://github.com/pedroelton/Instagram-clone-React-Native"
 				/>
 				<CardProject
-					image="https://pedroelton.com/wp-content/uploads/2022/04/Frame-1card-2.webp"
+					image={cryptoImage.src}
 					title="Crypto Info"
 					description="Cryptocurrency price and information tracker. Made in ReactJs and using the Coinstats api. Other features will be implemented soon."
 					link="https://thecryptoinfo.vercel.app/"
 					repo="https://github.com/pedroelton/CryptoInfo"
 				/>
 				<CardProject
-					image="https://pedroelton.com/wp-content/uploads/2022/04/Screenshot-at-Mar-31-23-53-13.webp"
+					image={noahImage.src}
 					title="Noah Weather"
 					description="App made in EJS, Nodejs and Express that fetchs an weather API and give important weather information from my City."
 					link="https://github.com/pedroelton/NoahWeather.git"
 					repo="https://github.com/pedroelton/NoahWeather.git"
 				/>
 				<CardProject
-					image="https://pedroelton.com/wp-content/uploads/2022/04/Screenshot-at-Apr-01-00-01-40.webp"
+					image={taskImage.src}
 					title="MyTask"
 					description="The first project I did. I used jQuery to build an pretty Todo list called MyTask. It a simple list, without backend."
 					link="https://ephemeral-chimera-ed1aea.netlify.app/"
 					repo="https://github.com/pedroelton/Simple-Todo-List-in-jQuery"
 				/>
 				<CardProject
-					image="https://pedroelton.com/wp-content/uploads/2022/04/Screenshot-at-Apr-28-13-57-28.png"
+					image={designCodeImage.src}
 					title="Designcode.io Clone"
 					description="A great project to practice Styled Components and ReactJs, as part of the designcode.io React course."
 					link="https://designcode-frontend-clone.netlify.app/"
 					repo="https://github.com/pedroelton/designcode.io_clone.git"
 				/>
 				<CardProject
-					image="https://pedroelton.com/wp-content/uploads/2022/12/microblog-min.png"
+					image={microblogImage.src}
 					title="Microblog"
 					description="A Microblog project made with HTML, CSS, Python Flask and MongoDB."
 					link="https://microblog-pedro.onrender.com/"
 					repo="https://github.com/pedroelton/microblog-pedro.git"
 				/>
 				<CardProject
-					image="https://pedroelton.com/wp-content/uploads/2022/12/phpcrud-min.png"
+					image={phpCrudImage.src}
 					title="Simple CRUD in PHP and MYSQL"
 					description="A project made for training purposes. HTML, Bootstrap, PHP and MySQL"
 					link="https://github.com/pedroelton/SIMPLE-CRUD-PHP-MYSQL"
 					repo="https://github.com/pedroelton/SIMPLE-CRUD-PHP-MYSQL.git"
 				/>
 				<CardProject
-					image="https://pedroelton.com/wp-content/uploads/2022/12/weighttracker-min.png"
+					image={weightTrackerImage.src}
 					title="Weight Tracker in VueJs"
 					description="A weight tracker using Vue Js, ChartJs, CSS and Vite"
 					link="https://github.com/pedroelton/weight-tracker-vue"
@@ -121,7 +131,7 @@ const Portfolio = () => {
 				</div>
 				<div className="flex flex-col space-y-5 md:w-[50vw] w-100">
 					<img
-						src="https://pedroelton.com/wp-content/uploads/2021/12/Web-Moock-Up-min-scaled.webp"
+						src={dektosMockup.src}
 						alt="3 designs made on figma"
 						className="hover:-rotate-6 hover:scale-110 transition-all duration-300"
 					/>

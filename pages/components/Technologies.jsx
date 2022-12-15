@@ -1,73 +1,85 @@
 import React from "react";
 import Cta from "./Cta";
 import GaleryItem from "./GaleryItem";
+import bgTechnology from "../../assets/bgResume.webp";
+import htmlLogo from "../../assets/html-1.svg";
+import cssLogo from "../../assets/css-3.svg";
+import javaScriptLogo from "../../assets/logo-javascript.svg";
+import reactLogo from "../../assets/react-2.svg";
+import nextLogo from "../../assets/next-js.svg";
+import tailwindLogo from "../../assets/tailwind-css2.svg";
+import bootstrapLogo from "../../assets/Bootstrap.svg";
+import elementorLogo from "../../assets/elementor.svg";
+import webflowLogo from "../../assets/icons8-webflow.svg";
+import wordpressLogo from "../../assets/wordpress-blue.svg";
+import shopifyLogo from "../../assets/shopify.svg";
+import figmaLogo from "../../assets/figma-1.svg";
 
 const Technologies = () => {
 	return (
 		<section
 			className="flex justify-center align-middle lg:py-24 lg:w-[1400px] m-auto grid-cols-1 lg:grid-cols-2 lg:space-x-16 flex-wrap lg:flex-nowrap p-8 lg:p-0 space-y-12 lg:space-y-0"
 			style={{
-				backgroundImage:
-					'url("https://pedroelton.com/wp-content/uploads/2022/12/bgResume.webp")',
+				backgroundImage: `url(${bgTechnology})`,
 				backgroundRepeat: "no-repeat",
 				backgroundSize: "contain",
 				backgroundPosition: "center center",
 			}}>
 			<div className="flex md:w-[30vw] w-100 flex-wrap md:justify-start justify-center">
 				<GaleryItem
-					photo="https://pedroelton.com/wp-content/uploads/2021/12/html-1.svg"
+					photo={htmlLogo.src}
 					alt="HTML5"
 				/>
 				<GaleryItem
-					photo="https://pedroelton.com/wp-content/uploads/2021/12/css-3.svg"
+					photo={cssLogo.src}
 					alt="CSS3"
 				/>
 				<GaleryItem
-					photo="https://pedroelton.com/wp-content/uploads/2022/03/logo-javascript.svg"
+					photo={javaScriptLogo.src}
 					alt="JavaScript"
 				/>
 				<GaleryItem
-					photo="https://pedroelton.com/wp-content/uploads/2022/03/react-2.svg"
+					photo={reactLogo.src}
 					alt="React"
 				/>
 				<GaleryItem
-					photo="https://pedroelton.com/wp-content/uploads/2022/03/next-js.svg"
+					photo={nextLogo.src}
 					alt="NextJs"
 				/>
 				<GaleryItem
-					photo="https://pedroelton.com/wp-content/uploads/2022/03/tailwind-css2.svg"
+					photo={tailwindLogo.src}
 					alt="Tailwind"
 				/>
 				<GaleryItem
-					photo="https://pedroelton.com/wp-content/uploads/2022/09/Bootstrap.svg"
+					photo={bootstrapLogo.src}
 					alt="Bootstrap"
 				/>
 				{/* <GaleryItem
 					photo="https://pedroelton.com/wp-content/uploads/2022/03/express1.svg"
 					alt="Express"
-				/>
-				<GaleryItem
+					/>
+					<GaleryItem
 					photo="https://pedroelton.com/wp-content/uploads/2022/03/jquery1.svg"
 					alt="jQuery"
 				/> */}
 				<GaleryItem
-					photo="https://pedroelton.com/wp-content/uploads/2022/09/Elementor.svg"
+					photo={elementorLogo.src}
 					alt="Elementor"
 				/>
 				<GaleryItem
-					photo="https://pedroelton.com/wp-content/uploads/2021/12/icons8-webflow.svg"
+					photo={webflowLogo.src}
 					alt="Webflow"
 				/>
 				<GaleryItem
-					photo="https://pedroelton.com/wp-content/uploads/2021/12/wordpress-blue.svg"
+					photo={wordpressLogo.src}
 					alt="Wordpress"
 				/>
 				<GaleryItem
-					photo="https://pedroelton.com/wp-content/uploads/2021/12/shopify.svg"
+					photo={shopifyLogo.src}
 					alt="Shopify"
 				/>
 				<GaleryItem
-					photo="https://pedroelton.com/wp-content/uploads/2021/12/figma-1.svg"
+					photo={figmaLogo.src}
 					alt="Figma"
 				/>
 			</div>
@@ -84,7 +96,7 @@ const Technologies = () => {
 				<div className="flex justify-center md:justify-start">
 					<Cta
 						text="Download my CV"
-						link="https://pedroelton.com/wp-content/uploads/2022/12/CV-Pedro-Elton-Developer-ptbr.pdf"
+						link="https://drive.google.com/file/d/1rG3FC86osIgaF2T7OERpiPElY_tEHGRO/view?usp=sharing"
 					/>
 				</div>
 			</div>

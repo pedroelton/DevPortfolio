@@ -1,6 +1,7 @@
 import React from "react";
 import ContactForm from "./ContactForm";
 import ListTopics from "./ListTopics";
+import bgContact from "../../assets/bghero.webp";
 
 const Contact = () => {
 	return (
@@ -8,8 +9,7 @@ const Contact = () => {
 			id="contact"
 			className="flex justify-center align-middle lg:py-24 lg:w-[1400px] m-auto grid-cols-1 lg:grid-cols-2 lg:space-x-16 flex-wrap lg:flex-nowrap p-8 lg:p-0 space-y-12 lg:space-y-0"
 			style={{
-				backgroundImage:
-					'url("https://pedroelton.com/wp-content/uploads/2022/12/bghero.webp")',
+				backgroundImage: `url(${bgContact.src})`,
 				backgroundRepeat: "no-repeat",
 				backgroundSize: "contain",
 				backgroundPosition: "center center",

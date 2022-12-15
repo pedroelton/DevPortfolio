@@ -1,5 +1,6 @@
 import React, {Suspense} from "react";
 import CountUp from "react-countup";
+import bgMyNumbers from "../../assets/bgnumbers.webp";
 
 const MyNumbers = ({toggle}) => {
 	if (toggle === "bg-slate-900  text-orange-50 overflow-hidden") {
@@ -12,8 +13,7 @@ const MyNumbers = ({toggle}) => {
 		<section
 			className="w-full flex flex-grow lg:py-16 py-8 flex-col md:flex-row"
 			style={{
-				backgroundImage:
-					'url("https://pedroelton.com/wp-content/uploads/2022/12/bgnumbers.webp")',
+				backgroundImage: `url(${bgMyNumbers.src})`,
 				backgroundRepeat: "no-repeat",
 				backgroundSize: "cover",
 				backgroundPosition: "top center",

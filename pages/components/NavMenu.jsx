@@ -3,7 +3,7 @@ import React from "react";
 const NavMenu = () => {
 	return (
 		<ul className="flex space-x-8 items-center w-fit justify-center">
-			<a href="https://pedroelton.com/wp-content/uploads/2022/12/CV-Pedro-Elton-Developer-ptbr.pdf">
+			<a href="https://drive.google.com/file/d/1rG3FC86osIgaF2T7OERpiPElY_tEHGRO/view?usp=sharing">
 				<li className="hover:font-bold hover:scale-110 hover:text-indigo-600 transition-all duration-300 hover:underline hover:underline-offset-4 cursor-pointer">
 					Curriculum
 				</li>

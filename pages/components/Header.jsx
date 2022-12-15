@@ -1,15 +1,14 @@
-import {Hidden} from "@mui/material";
 import React from "react";
 import MockupAnimated from "./Animation";
 import Cta from "./Cta";
+import bghero from "../../assets/bghero.webp";
 
 function Header() {
 	return (
 		<section
 			className="w-screen h-auto"
 			style={{
-				backgroundImage:
-					'url("https://pedroelton.com/wp-content/uploads/2022/12/bghero.webp")',
+				backgroundImage: `url(${bghero.src})`,
 				backgroundRepeat: "no-repeat",
 				backgroundSize: "contain",
 				backgroundPosition: "center center",
@@ -31,7 +30,7 @@ function Header() {
 					<div className="w-full flex flex-col lg:flex-row lg:space-y-0 space-y-4 justify-center md:justify-start items-center">
 						<Cta
 							text="Download my CV"
-							link="https://pedroelton.com/wp-content/uploads/2022/12/CV-Pedro-Elton-Developer-ptbr.pdf"
+							link="https://drive.google.com/file/d/1rG3FC86osIgaF2T7OERpiPElY_tEHGRO/view?usp=sharing"
 						/>
 						<a
 							href="#contact"
@@ -73,7 +72,7 @@ function Header() {
                 ></iframe> */}
 				<div className="md:w-[60vw] w-100 hidden md:inline">
 					{" "}
-					<MockupAnimated image="https://pedroelton.com/wp-content/uploads/2022/04/heroImg1-scaled.webp" />
+					<MockupAnimated />
 				</div>
 			</header>
 		</section>

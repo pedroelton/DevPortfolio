@@ -1,13 +1,15 @@
 import React from "react";
+import Image from "next/image";
 import ListTopics from "./ListTopics";
+import bgResume from "../../assets/bgResume.webp";
+import imageMockup from "../../assets/UX-UI-app-presentation-mockup-min-scaled.webp";
 
 const Resume = () => {
 	return (
 		<section
 			className="w-screen h-auto"
 			style={{
-				backgroundImage:
-					'url("https://pedroelton.com/wp-content/uploads/2022/12/bgResume.webp")',
+				backgroundImage: `url(${bgResume.src})`,
 				backgroundRepeat: "no-repeat",
 				backgroundSize: "contain",
 				backgroundPosition: "center center",
@@ -16,8 +18,8 @@ const Resume = () => {
 				id="skills"
 				className="flex justify-center align-middle lg:pb-24 lg:w-[1400px] m-auto grid-cols-1 lg:grid-cols-2 lg:space-x-16 flex-wrap lg:flex-nowrap p-8 lg:p-0 space-y-12 lg:space-y-0">
 				<div className="flex flex-col space-y-5 md:w-[50vw] w-full">
-					<img
-						src="https://pedroelton.com/wp-content/uploads/2021/12/UX-UI-app-presentation-mockup-min-scaled.webp"
+					<Image
+						src={imageMockup}
 						alt="Mobile financial app mockup"
 						className="hover:scale-150 transition-all duration-300"
 						loading="lazy"
