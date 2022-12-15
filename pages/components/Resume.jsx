@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
 import ListTopics from "./ListTopics";
@@ -23,6 +24,7 @@ const Resume = () => {
 						alt="Mobile financial app mockup"
 						className="hover:scale-150 transition-all duration-300"
 						loading="lazy"
+						
 					/>
 				</div>
 				<div className="flex flex-col space-y-5 md:w-[50vw] w-full md:px-0">
@@ -32,7 +34,7 @@ const Resume = () => {
 					<div className="h-2 bg-indigo-600 w-24" />
 					<p className="md:w-[540px] leading-relaxed md:text-lg text-md font-light text-left">
 						I gathered experience in different areas of design,
-						development, marketing and management and it’s an asset,
+						development, marketing and management and it's an asset,
 						since this broad vision helps me to develop better
 						solutions. I can add value for your company by adding to
 						my work the following skills:

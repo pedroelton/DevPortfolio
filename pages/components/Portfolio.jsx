@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import CardProject from "./CardProject";
 import CtaNewWindow from "./CtaNewWindow";
@@ -29,9 +31,9 @@ const Portfolio = () => {
 					<h2 className="text-4xl font-bold w-full text-center pb-2 items-center">
 						Projects
 					</h2>
-					<p className="text-sm font-medium text-center pb-8">
-						Every week I'm adding new projects here
-					</p>
+					{/* <p className="text-sm font-medium text-center pb-8">
+						Every month I am adding new projects here
+					</p> */}
 				</div>
 				<CardProject
 					image={amazonImage.src}
@@ -106,7 +108,7 @@ const Portfolio = () => {
 						</span>
 					</h2>
 					<p className="md:w-12/12 w-100 leading-relaxed md:text-lg text-md font-light text-left">
-						Here I’m showing the last project I worked on in 2021. I
+						Here I'm showing the last project I worked on in 2021. I
 						would love to talk more about it and about other
 						projects in a interview.
 					</p>
@@ -134,6 +136,7 @@ const Portfolio = () => {
 						src={dektosMockup.src}
 						alt="3 designs made on figma"
 						className="hover:-rotate-6 hover:scale-110 transition-all duration-300"
+						
 					/>
 				</div>
 			</div>

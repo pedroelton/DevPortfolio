@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
 const CardProject = ({image, title, description, link, repo}) => {
@@ -9,7 +10,8 @@ const CardProject = ({image, title, description, link, repo}) => {
 						<img
 							className=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
 							src={image}
-							alt="Amazon"
+							alt="Projeto frontend"
+						
 						/>
 						<div className="p-6 flex flex-col justify-start">
 							<h5 className="text-xl font-medium mb-2">

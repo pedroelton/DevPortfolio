@@ -15,6 +15,7 @@ import wordpressLogo from "../../assets/wordpress-blue.svg";
 import shopifyLogo from "../../assets/shopify.svg";
 import figmaLogo from "../../assets/figma-1.svg";
 
+
 const Technologies = () => {
 	return (
 		<section

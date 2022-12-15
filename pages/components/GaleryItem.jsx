@@ -1,4 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
+
 
 const GaleryItem = ({photo, alt}) => {
   return (
