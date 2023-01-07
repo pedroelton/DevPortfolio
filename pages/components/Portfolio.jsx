@@ -128,7 +128,7 @@ const Portfolio = () => {
 					</p>
 					<CtaNewWindow
 						text="Case studies"
-						link="https://pedroelton.com/case-studies/"
+						link="https://pedroelton.com/dektos-case-studies/"
 					/>
 				</div>
 				<div className="flex flex-col space-y-5 md:w-[50vw] w-100">
