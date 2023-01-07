@@ -136,7 +136,6 @@ const Portfolio = () => {
 						src={dektosMockup.src}
 						alt="3 designs made on figma"
 						className="hover:-rotate-6 hover:scale-110 transition-all duration-300"
-						
 					/>
 				</div>
 			</div>

@@ -23,7 +23,7 @@ function Header() {
 						Front-end Developer <br /> & UI/UX Designer
 					</h1>
 					<p className=" md:w-[480px] leading-relaxed text-lg font-light text-center md:text-left">
-						My experience in the past 3 years were focused on web
+						My experience in the past 3 years was focused on web
 						design and UI/UX Design. As a front-end web developer
 						I’m an Entry-level/Junior on ReactJs, JavaScript,
 						jQuery, NodeJs and Express.
