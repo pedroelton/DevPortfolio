@@ -14,6 +14,7 @@ import microblogImage from "../../assets/microblog-min.png";
 import phpCrudImage from "../../assets/phpcrud-min.png";
 import weightTrackerImage from "../../assets/weighttracker-min.png";
 import dektosMockup from "../../assets/Web-Moock-Up-min-scaled.webp";
+import diceImage from "../../assets/dice.webp";
 
 const Portfolio = () => {
 	return (
@@ -97,6 +98,13 @@ const Portfolio = () => {
 					description="A weight tracker using Vue Js, ChartJs, CSS and Vite"
 					link="https://github.com/pedroelton/weight-tracker-vue"
 					repo="https://github.com/pedroelton/weight-tracker-vue.git"
+				/>
+				<CardProject
+					image={diceImage.src}
+					title="Dispute Solver: The Game"
+					description="A game to help you solve your daily domestic disputes. I used HTMl, CSS, and vanila JS. I also did it in React Native. Click to play!"
+					link="https://dispute-solver.netlify.app/"
+					repo="https://github.com/pedroelton/Dispute-solver-dice-game"
 				/>
 			</div>
 			<div className="flex justify-center align-middle lg:py-24 lg:w-[1400px] m-auto grid-cols-1 lg:grid-cols-2 lg:space-x-16 flex-wrap lg:flex-nowrap p-8 lg:p-0 space-y-12 lg:space-y-0">

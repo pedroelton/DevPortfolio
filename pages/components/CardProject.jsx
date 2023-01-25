@@ -11,7 +11,6 @@ const CardProject = ({image, title, description, link, repo}) => {
 							className=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
 							src={image}
 							alt="Projeto frontend"
-						
 						/>
 						<div className="p-6 flex flex-col justify-start">
 							<h5 className="text-xl font-medium mb-2">
@@ -19,7 +18,7 @@ const CardProject = ({image, title, description, link, repo}) => {
 							</h5>
 							<p className="text-base mb-4">{description}</p>
 							<a href={repo}>
-								<p className="text-xs">
+								<p className="text-xs hover:underline">
 									Click here to access the repository
 								</p>
 							</a>
