@@ -58,11 +58,18 @@ const Portfolio = () => {
 					repo="https://github.com/pedroelton/CryptoInfo"
 				/>
 				<CardProject
-					image={noahImage.src}
-					title="Noah Weather"
-					description="App made in EJS, Nodejs and Express that fetchs an weather API and give important weather information from my City."
-					link="https://github.com/pedroelton/NoahWeather.git"
-					repo="https://github.com/pedroelton/NoahWeather.git"
+					image={microblogImage.src}
+					title="Microblog"
+					description="A Microblog project made with HTML, CSS, Python Flask and MongoDB."
+					link="https://microblog-pedro.onrender.com/"
+					repo="https://github.com/pedroelton/microblog-pedro.git"
+				/>
+				<CardProject
+					image={diceImage.src}
+					title="Dispute Solver: The Game"
+					description="A game to help you solve your daily domestic disputes. I used HTMl, CSS, and vanila JS. I also did it in React Native. Click to play!"
+					link="https://dispute-solver.netlify.app/"
+					repo="https://github.com/pedroelton/Dispute-solver-dice-game"
 				/>
 				<CardProject
 					image={taskImage.src}
@@ -72,18 +79,11 @@ const Portfolio = () => {
 					repo="https://github.com/pedroelton/Simple-Todo-List-in-jQuery"
 				/>
 				<CardProject
-					image={designCodeImage.src}
-					title="Designcode.io Clone"
-					description="A great project to practice Styled Components and ReactJs, as part of the designcode.io React course."
-					link="https://designcode-frontend-clone.netlify.app/"
-					repo="https://github.com/pedroelton/designcode.io_clone.git"
-				/>
-				<CardProject
-					image={microblogImage.src}
-					title="Microblog"
-					description="A Microblog project made with HTML, CSS, Python Flask and MongoDB."
-					link="https://microblog-pedro.onrender.com/"
-					repo="https://github.com/pedroelton/microblog-pedro.git"
+					image={weightTrackerImage.src}
+					title="Weight Tracker in VueJs"
+					description="A weight tracker using Vue Js, ChartJs, CSS and Vite"
+					link="https://github.com/pedroelton/weight-tracker-vue"
+					repo="https://github.com/pedroelton/weight-tracker-vue.git"
 				/>
 				<CardProject
 					image={phpCrudImage.src}
@@ -93,18 +93,18 @@ const Portfolio = () => {
 					repo="https://github.com/pedroelton/SIMPLE-CRUD-PHP-MYSQL.git"
 				/>
 				<CardProject
-					image={weightTrackerImage.src}
-					title="Weight Tracker in VueJs"
-					description="A weight tracker using Vue Js, ChartJs, CSS and Vite"
-					link="https://github.com/pedroelton/weight-tracker-vue"
-					repo="https://github.com/pedroelton/weight-tracker-vue.git"
+					image={designCodeImage.src}
+					title="Designcode.io Clone"
+					description="A great project to practice Styled Components and ReactJs, as part of the designcode.io React course."
+					link="https://designcode-frontend-clone.netlify.app/"
+					repo="https://github.com/pedroelton/designcode.io_clone.git"
 				/>
 				<CardProject
-					image={diceImage.src}
-					title="Dispute Solver: The Game"
-					description="A game to help you solve your daily domestic disputes. I used HTMl, CSS, and vanila JS. I also did it in React Native. Click to play!"
-					link="https://dispute-solver.netlify.app/"
-					repo="https://github.com/pedroelton/Dispute-solver-dice-game"
+					image={noahImage.src}
+					title="Noah Weather"
+					description="App made in EJS, Nodejs and Express that fetchs an weather API and give important weather information from my City."
+					link="https://github.com/pedroelton/NoahWeather.git"
+					repo="https://github.com/pedroelton/NoahWeather.git"
 				/>
 			</div>
 			<div className="flex justify-center align-middle lg:py-24 lg:w-[1400px] m-auto grid-cols-1 lg:grid-cols-2 lg:space-x-16 flex-wrap lg:flex-nowrap p-8 lg:p-0 space-y-12 lg:space-y-0">
