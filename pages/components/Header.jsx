@@ -31,7 +31,7 @@ function Header() {
 					<div className="w-full flex flex-col lg:flex-row lg:space-y-0 space-y-4 justify-center md:justify-start items-center">
 						<Cta
 							text="Download my CV"
-							link="https://drive.google.com/file/d/1xhxQeVTo0NXgmvb2xrt78qaN2np5d7mi/view?usp=sharing"
+							link="https://drive.google.com/file/d/1xhxQeVTo0NXgmvb2xrt78qaN2np5d7mi/view?usp=share_link"
 						/>
 						<a
 							href="#contact"
