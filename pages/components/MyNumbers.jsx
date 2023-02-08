@@ -1,8 +1,8 @@
-import React, {Suspense} from "react";
+import React, { Suspense } from "react";
 import CountUp from "react-countup";
 import bgMyNumbers from "../../assets/bgnumbers.webp";
 
-const MyNumbers = ({toggle}) => {
+const MyNumbers = ({ toggle }) => {
 	if (toggle === "bg-slate-900  text-orange-50 overflow-hidden") {
 		const style = "text-orange-50";
 		const bg = "text-orange-50";
@@ -22,8 +22,8 @@ const MyNumbers = ({toggle}) => {
 			}}>
 			<div className="lg:w-[1400px] w-full m-auto grid-cols-1 lg:grid-cols-2 flex flex-col lg:flex-row justify-center flex-wrap md:flex-nowrap lg:space-x-16 items-center">
 				<div className="space-y-4 p-4 lg:p-0">
-					<h2 className="text-4xl font-bold lg:w-8/12 w-100 text-white drop-shadow-lg text-center lg:text-left">
-						My numbers in 2021
+					<h2 className="text-4xl font-bold  w-100 text-white drop-shadow-lg text-center lg:text-left">
+						My numbers in 2021/2022
 					</h2>
 					{/* <div className="h-2 bg-indigo-600 w-24"/> */}
 					<p className="md:w-[540px] leading-relaxed md:text-lg text-md font-light text-center lg:text-left text-white drop-shadow-lg">
@@ -36,21 +36,21 @@ const MyNumbers = ({toggle}) => {
 					<div className="flex flex-col text-center items-center justify-center md:p-8 my-aut">
 						<CountUp
 							duration={5}
-							end={287}
+							end={319}
 							className="font-extrabold text-5xl mb-2  text-white drop-shadow-lg"
 						/>
-						<p className="text-lg  text-white drop-shadow-lg">
-							Screens designed in 2021
+						<p className=" md:text-lg text-md text-white drop-shadow-lg">
+							Screens designed
 						</p>
 					</div>
 					<div className="flex flex-col text-center items-center justify-center md:p-8 my-auto">
 						<CountUp
 							duration={5}
-							end={5}
+							end={7}
 							className="font-extrabold text-5xl mb-2  text-white drop-shadow-lg"
 						/>
-						<p className="text-lg  text-white">
-							Websites done in 2021
+						<p className=" md:text-lg text-md  text-white">
+							Websites done
 						</p>
 					</div>
 				</div>

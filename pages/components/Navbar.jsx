@@ -2,12 +2,12 @@ import React from "react";
 import NavMenu from "./NavMenu";
 import Brightness6Icon from "@mui/icons-material/Brightness6";
 
-const Navbar = ({toggle}) => {
+const Navbar = ({ toggle }) => {
 	return (
 		<nav
 			id="navbar"
 			className="flex flex-grow w-full p-8 m-auto justify-center">
-			<div className="flex flex-col md:flex-row lg:w-[1400px] justify-between w-full">
+			<div className="flex flex-col md:flex-row lg:w-[1400px] w-full justify-between w-full">
 				<a
 					href="https://pedroelton.vercel.app/"
 					className="flex justify-center">

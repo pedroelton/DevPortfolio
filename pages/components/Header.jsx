@@ -31,7 +31,7 @@ function Header() {
 					<div className="w-full flex flex-col lg:flex-row lg:space-y-0 space-y-4 justify-center md:justify-start items-center">
 						<Cta
 							text="Download my CV"
-							link="https://drive.google.com/file/d/1rG3FC86osIgaF2T7OERpiPElY_tEHGRO/view?usp=sharing"
+							link="https://drive.google.com/file/d/1xhxQeVTo0NXgmvb2xrt78qaN2np5d7mi/view?usp=sharing"
 						/>
 						<a
 							href="#contact"
@@ -45,7 +45,7 @@ function Header() {
 						<h4 className="md:mt-24 mt-16 font-bold  mb-4">
 							Review:
 						</h4>
-						<q className="leading-relaxed ">
+						<q className="leading-relaxed text-lg">
 							Pedro is one of the most incredible guys I ever met,
 							as a person I have no word to describe him, as a
 							professional, the best word to describe Pedro is

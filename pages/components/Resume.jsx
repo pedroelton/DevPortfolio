@@ -24,7 +24,6 @@ const Resume = () => {
 						alt="Mobile financial app mockup"
 						className="hover:scale-150 transition-all duration-300"
 						loading="lazy"
-						
 					/>
 				</div>
 				<div className="flex flex-col space-y-5 md:w-[50vw] w-full md:px-0">

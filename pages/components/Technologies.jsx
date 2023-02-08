@@ -96,7 +96,7 @@ const Technologies = () => {
 				<div className="flex justify-center md:justify-start">
 					<Cta
 						text="Download my CV"
-						link="https://drive.google.com/file/d/1rG3FC86osIgaF2T7OERpiPElY_tEHGRO/view?usp=sharing"
+						link="https://drive.google.com/file/d/1xhxQeVTo0NXgmvb2xrt78qaN2np5d7mi/view?usp=sharing"
 					/>
 				</div>
 			</div>
