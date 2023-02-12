@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
+import { Badge } from "flowbite-react";
 import React from "react";
 
-const CardProject = ({image, title, description, link, repo}) => {
+const CardProject = ({ image, title, description, link, repo, badgeContent, badgeColor }) => {
 	return (
 		<div>
 			<a href={link}>
@@ -22,6 +23,14 @@ const CardProject = ({image, title, description, link, repo}) => {
 									Click here to access the repository
 								</p>
 							</a>
+							<div className="flex justify-end">
+
+							<Badge
+								color={badgeColor}
+								size="sm">
+								{badgeContent}
+							</Badge>
+									</div>
 						</div>
 					</div>
 				</div>
