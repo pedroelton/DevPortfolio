@@ -22,7 +22,7 @@ const Resume = () => {
 					<Image
 						src={imageMockup}
 						alt="Mobile financial app mockup"
-						className="hover:scale-150 transition-all duration-300"
+						className="hover:scale-110 transition-all duration-300"
 						loading="lazy"
 					/>
 				</div>

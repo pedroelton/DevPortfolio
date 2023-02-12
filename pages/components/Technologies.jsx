@@ -9,7 +9,7 @@ import reactLogo from "../../assets/react-2.svg";
 import nextLogo from "../../assets/next-js.svg";
 import tailwindLogo from "../../assets/tailwind-css2.svg";
 import bootstrapLogo from "../../assets/Bootstrap.svg";
-import elementorLogo from "../../assets/Elementor.svg";
+import sassLogo from "../../assets/Sass.svg";
 import webflowLogo from "../../assets/icons8-webflow.svg";
 import wordpressLogo from "../../assets/wordpress-blue.svg";
 import shopifyLogo from "../../assets/shopify.svg";
@@ -26,34 +26,48 @@ const Technologies = () => {
 				backgroundPosition: "center center",
 			}}>
 			<div className="flex md:w-[30vw] w-100 flex-wrap md:justify-start justify-center">
-				<GaleryItem
-					photo={htmlLogo.src}
-					alt="HTML5"
-				/>
-				<GaleryItem
-					photo={cssLogo.src}
-					alt="CSS3"
-				/>
-				<GaleryItem
-					photo={javaScriptLogo.src}
-					alt="JavaScript"
-				/>
-				<GaleryItem
-					photo={reactLogo.src}
-					alt="React"
-				/>
-				<GaleryItem
-					photo={nextLogo.src}
-					alt="NextJs"
-				/>
-				<GaleryItem
-					photo={tailwindLogo.src}
-					alt="Tailwind"
-				/>
-				<GaleryItem
-					photo={bootstrapLogo.src}
-					alt="Bootstrap"
-				/>
+				<div className="m-8 flex justify-center items-center w-[64px] h-[64px] hover:translate-y-2 transition-all duration-300">
+					<GaleryItem
+						photo={htmlLogo.src}
+						alt="HTML5"
+					/>
+				</div>
+				<div className="m-8 flex justify-center items-center w-[64px] h-[64px] hover:translate-y-2 transition-all duration-300">
+					<GaleryItem
+						photo={cssLogo.src}
+						alt="CSS3"
+					/>
+				</div>
+				<div className="m-8 flex justify-center items-center w-[64px] h-[64px] hover:translate-y-2 transition-all duration-300">
+					<GaleryItem
+						photo={javaScriptLogo.src}
+						alt="JavaScript"
+					/>
+				</div>
+				<div className="m-8 flex justify-center items-center w-[64px] h-[64px] hover:translate-y-2 transition-all duration-300">
+					<GaleryItem
+						photo={reactLogo.src}
+						alt="React"
+					/>
+				</div>
+				<div className="bg-white rounded-full p-0 m-8 flex justify-center items-center w-[64px] h-[64px] hover:translate-y-2 transition-all duration-300">
+					<GaleryItem
+						photo={nextLogo.src}
+						alt="NextJs"
+					/>
+				</div>
+				<div className="m-8 flex justify-center items-center w-[64px] h-[64px] hover:translate-y-2 transition-all duration-300">
+					<GaleryItem
+						photo={tailwindLogo.src}
+						alt="Tailwind"
+					/>
+				</div>
+				<div className="m-8 flex justify-center items-center w-[64px] h-[64px] hover:translate-y-2 transition-all duration-300">
+					<GaleryItem
+						photo={bootstrapLogo.src}
+						alt="Bootstrap"
+					/>
+				</div>
 				{/* <GaleryItem
 					photo="https://pedroelton.com/wp-content/uploads/2022/03/express1.svg"
 					alt="Express"
@@ -62,28 +76,38 @@ const Technologies = () => {
 					photo="https://pedroelton.com/wp-content/uploads/2022/03/jquery1.svg"
 					alt="jQuery"
 				/> */}
-				<GaleryItem
-					photo={elementorLogo.src}
-					alt="Elementor"
-				/>
-				<GaleryItem
-					photo={webflowLogo.src}
-					alt="Webflow"
-				/>
-				<GaleryItem
-					photo={wordpressLogo.src}
-					alt="Wordpress"
-				/>
-				<GaleryItem
-					photo={shopifyLogo.src}
-					alt="Shopify"
-				/>
-				<GaleryItem
-					photo={figmaLogo.src}
-					alt="Figma"
-				/>
+				<div className="m-8 flex justify-center items-center w-[64px] hover:translate-y-2 transition-all duration-300">
+					<GaleryItem
+						photo={sassLogo.src}
+						alt="Sass"
+					/>
+				</div>
+				<div className="bg-white rounded-full m-8 flex justify-center items-center w-[64px] h-[64px] hover:translate-y-2 transition-all duration-300">
+					<GaleryItem
+						photo={webflowLogo.src}
+						alt="Webflow"
+					/>
+				</div>
+				<div className="bg-white rounded-full m-8 flex justify-center items-center w-[64px] h-[64px] hover:translate-y-2 transition-all duration-300">
+					<GaleryItem
+						photo={wordpressLogo.src}
+						alt="Wordpress"
+					/>
+				</div>
+				<div className="m-8 flex justify-center items-center w-[64px] h-[64px] hover:translate-y-2 transition-all duration-300">
+					<GaleryItem
+						photo={shopifyLogo.src}
+						alt="Shopify"
+					/>
+				</div>
+				<div className="m-8 flex justify-center items-center w-[52px] h-[52px] hover:translate-y-2 transition-all duration-300">
+					<GaleryItem
+						photo={figmaLogo.src}
+						alt="Figma"
+					/>
+				</div>
 			</div>
-			<div className="flex flex-col space-y-5 md:w-[30vw] w-100 text-center md:text-left bg-[rgba(255,255,255,0.1)] p-8 rounded-2xl justify-center">
+			<div className="flex flex-col space-y-5 md:w-[30vw] w-100 text-center md:text-left bg-[rgba(255,255,255,0.1)] p-8 rounded-2xl justify-center h-[360px]">
 				<h2 className="text-4xl font-bold md:w-8/12 w-100">
 					Technologies
 				</h2>

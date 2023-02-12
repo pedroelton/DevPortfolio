@@ -29,7 +29,7 @@ const Portfolio = () => {
 			}}>
 			<div className="flex justify-evenly align-middle lg:py-24 lg:w-[1400px] m-auto grid-cols-1 lg:grid-cols-2 flex-wrap p-8 lg:p-0 space-y-12 lg:space-y-0">
 				<div className="w-full flex flex-col justify-center">
-					<h2 className="text-4xl font-bold w-full text-center pb-2 items-center">
+					<h2 className="text-4xl font-bold w-full text-center mb-8 items-center">
 						Projects
 					</h2>
 					{/* <p className="text-sm font-medium text-center pb-8">
@@ -108,26 +108,26 @@ const Portfolio = () => {
 				/>
 			</div>
 			<div className="flex justify-center align-middle lg:py-24 lg:w-[1400px] m-auto grid-cols-1 lg:grid-cols-2 lg:space-x-16 flex-wrap lg:flex-nowrap p-8 lg:p-0 space-y-12 lg:space-y-0">
-				<div className="flex flex-col space-y-5 md:w-[50vw] w-100 bg-[rgba(255,255,255,0.1)] p-8 rounded-2xl">
+				<div className="flex flex-col space-y-5 md:w-auto w-auto bg-[rgba(255,255,255,0.1)] p-8 rounded-2xl">
 					<h2 className="text-4xl font-bold md:w-8/12 w-100">
 						Dektos{" "}
 						<span className="text-lg font-medium">
 							(UI/UX, Web Design and auditing)
 						</span>
 					</h2>
-					<p className="md:w-12/12 w-100 leading-relaxed md:text-lg text-md font-light text-left">
+					<p className="md:w-12/12 w-[40ch] leading-relaxed md:text-lg text-md font-light text-left">
 						Here I'm showing the last project I worked on in 2021. I
 						would love to talk more about it and about other
 						projects in a interview.
 					</p>
-					<p className=" md:w-12/12 w-100 leading-relaxed md:text-lg text-md font-light text-left">
+					<p className=" md:w-12/12 w-[40ch] leading-relaxed md:text-lg text-md font-light text-left">
 						Dektos was a social media focused on finance and trading
 						called Dektos and had the mission to reduce the barriers
 						and the spread of knowledge between institutional
 						investors and small investors, retail traders or people
 						without any level of knowledge in investments.
 					</p>
-					<p className=" md:w-12/12 w-100 leading-relaxed md:text-lg text-md font-light text-left">
+					<p className=" md:w-12/12 w-[40ch] leading-relaxed md:text-lg text-md font-light text-left">
 						The project had over 200 screens designed with exclusive
 						functionalities and processes created by me. My main
 						role in this project was to create from scratch the

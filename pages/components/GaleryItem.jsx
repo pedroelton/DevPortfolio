@@ -1,13 +1,21 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react'
+import { Tooltip } from "flowbite-react";
+import React from "react";
 
+const GaleryItem = ({ photo, alt }) => {
+	return (
+		<>
+			<Tooltip content={alt}>
+				<img
+					src={photo}
+					alt={alt}
+					className="w-full h-full scale-110"
+					data-tooltip-target="tooltip-hover"
+					data-tooltip-trigger="hover"
+				/>
+			</Tooltip>
+		</>
+	);
+};
 
-const GaleryItem = ({photo, alt}) => {
-  return (
-    <>
-        <img src={photo} alt={alt} className="w-[72px] hover:scale-110 transition-all duration-300 m-3" />
-    </>
-  )
-}
-
-export default GaleryItem
+export default GaleryItem;
