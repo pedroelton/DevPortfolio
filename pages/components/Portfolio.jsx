@@ -116,24 +116,9 @@ const Portfolio = () => {
 						</span>
 					</h2>
 					<p className="md:w-12/12 w-[40ch] leading-relaxed md:text-lg text-md font-light text-left">
-						Here I'm showing the last project I worked on in 2021. I
-						would love to talk more about it and about other
-						projects in a interview.
+					Dektos was a social media platform for finance and trading with a mission to bridge the gap between institutional and retail investors by spreading knowledge. I was responsible for creating the business model, features, and design from scratch, as well as managing the development team and auditing their work. I designed over 200 screens, each with unique functionalities. <br /><br />Let's chat more about this and my other projects during an interview.
 					</p>
-					<p className=" md:w-12/12 w-[40ch] leading-relaxed md:text-lg text-md font-light text-left">
-						Dektos was a social media focused on finance and trading
-						called Dektos and had the mission to reduce the barriers
-						and the spread of knowledge between institutional
-						investors and small investors, retail traders or people
-						without any level of knowledge in investments.
-					</p>
-					<p className=" md:w-12/12 w-[40ch] leading-relaxed md:text-lg text-md font-light text-left">
-						The project had over 200 screens designed with exclusive
-						functionalities and processes created by me. My main
-						role in this project was to create from scratch the
-						business model, features and, design, to manage the
-						development team, and audit their deliveries.
-					</p>
+
 					<CtaNewWindow
 						text="Case studies"
 						link="https://pedroelton.com/dektos-case-studies/"

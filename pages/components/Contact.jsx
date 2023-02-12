@@ -18,9 +18,8 @@ const Contact = () => {
 				<h2 className="text-4xl font-bold md:w-8/12">
 					How about we schedule an interview?
 				</h2>
-				<p className=" md:w-8/12 leading-relaxed md:text-lg text-md font-light text-left">
-					We can book a video call and talk about how I can add value
-					to your team and see if we are a good match.
+				<p className=" md:w-[40ch] w-[52ch] leading-relaxed md:text-lg text-md font-light text-left">
+				I'd love to chat with you about how I can bring my skills and experiences to your team. Let's schedule a video call to determine if we're a good fit and explore how I can add value to your organization.
 				</p>
 				<ul className="flex flex-col w-fit">
 					<ListTopics

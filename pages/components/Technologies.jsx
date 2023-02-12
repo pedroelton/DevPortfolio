@@ -107,15 +107,12 @@ const Technologies = () => {
 					/>
 				</div>
 			</div>
-			<div className="flex flex-col space-y-5 md:w-[30vw] w-100 text-center md:text-left bg-[rgba(255,255,255,0.1)] p-8 rounded-2xl justify-center h-[360px]">
+			<div className="flex flex-col space-y-5 md:w-[30vw] w-100 text-center md:text-left bg-[rgba(255,255,255,0.1)] p-8 rounded-2xl justify-top h-100">
 				<h2 className="text-4xl font-bold md:w-8/12 w-100">
-					Technologies
+				My Toolkit for Successful Delivery
 				</h2>
 				<p className=" w-100 leading-relaxed md:text-lg text-md font-light md:text-left text-center">
-					Several tools were used to accomplish the mission I had.
-					With simple steps, clear process, great tools and focus, I
-					can create and design ideas, processes, products and
-					strategies for your business.
+				I utilize a variety of tools to bring my projects to fruition. With a clear process, a focus on simplicity, and the right tools, I am able to bring ideas, processes, products, and strategies to life for your business. Let's work together to achieve your goals.
 				</p>
 				<div className="flex justify-center md:justify-start">
 					<Cta

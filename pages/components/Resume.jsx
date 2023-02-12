@@ -28,15 +28,11 @@ const Resume = () => {
 				</div>
 				<div className="flex flex-col space-y-5 md:w-[50vw] w-full md:px-0">
 					<h2 className="text-4xl font-bold md:w-8/12 w-100">
-						A quick resume of skills and experiences
+					A Comprehensive Overview of My Skills and Experiences
 					</h2>
 					<div className="h-2 bg-indigo-600 w-24" />
 					<p className="md:w-[540px] leading-relaxed md:text-lg text-md font-light text-left">
-						I gathered experience in different areas of design,
-						development, marketing and management and it's an asset,
-						since this broad vision helps me to develop better
-						solutions. I can add value for your company by adding to
-						my work the following skills:
+					With a diverse range of experiences in design, development, marketing, and management, I bring a well-rounded perspective to every project. My broad skill set allows me to find innovative solutions and add value to your company. These are some of the skills I bring to the table:
 					</p>
 					<ul>
 						<ListTopics
